@@ -1,0 +1,8 @@
+.subscribe-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 22px;
+    letter-spacing: -0.2px;
+    color: #999999;
+}

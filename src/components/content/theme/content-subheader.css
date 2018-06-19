@@ -1,0 +1,19 @@
+.content-subheader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 22px;
+}
+
+.content-subheader__title {
+	font-weight: 500;
+	letter-spacing: -0.3px;
+	color: #111111;
+	padding-right: 22px;
+}
+
+.content-subheader__line {
+	flex: 1;
+	height: 1px;
+	background-color: #eeeeee;
+}

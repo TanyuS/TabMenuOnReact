@@ -1,0 +1,14 @@
+.subscribe {
+}
+
+.subscribe__text {
+    color: #999999;
+    letter-spacing: -0.2px;
+    padding: 16px 22px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.subscribe__footer {
+    display: flex;
+
+}

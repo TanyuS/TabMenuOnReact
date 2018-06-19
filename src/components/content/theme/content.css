@@ -1,0 +1,9 @@
+.content {
+	box-shadow: 0 4px 10px 0 rgba(50, 50, 93, 0.05);
+	border-radius: 6px;
+	width: 380px;
+	margin: 20px auto;
+}
+.content__body {
+	padding: 20px 0 0;
+}

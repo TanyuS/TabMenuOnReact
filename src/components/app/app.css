@@ -1,0 +1,7 @@
+.App {
+    display: flex;
+    align-items: flex-start;
+    font-family: SFPro;
+    font-size: 14px;
+    font-weight: normal;
+}
