@@ -12,7 +12,7 @@ class Content extends Component {
 		super(props);
 
 		this.state = {
-			currentTab: 'Subscribe',
+			currentTab: 'Ono',
 		}
 	}
 

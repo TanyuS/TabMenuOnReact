@@ -3,11 +3,6 @@ import './personal-info.css';
 
 
 class PersonalInfo extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
     render() {
 
         return (

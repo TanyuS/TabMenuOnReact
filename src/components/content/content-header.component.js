@@ -6,11 +6,6 @@ import * as Manicure from '../../sources/ic-nail.svg';
 
 
 class ContentHeader extends Component {
-	constructor(props) {
-		super(props);
-
-	}
-
 	render() {
 		const { currentTab } = this.props;
 
@@ -20,7 +15,7 @@ class ContentHeader extends Component {
 					className={"header__element " + (currentTab === 'LordOfTheRing' ? "header__element_active" : '')}
 					onClick={this.handleChangeTab('LordOfTheRing')}>
 					<div className="header-element__icon">
-						<img src={Gandalf} />
+						<img src={Gandalf} alt="Gandalf" />
 					</div>
 					<div className="header-element__text" >
 						Властелин колец
@@ -29,7 +24,7 @@ class ContentHeader extends Component {
 				<div className={"header__element " + (currentTab === 'Ono' ? "header__element_active" : '')}
 					 onClick={this.handleChangeTab('Ono')}>
 					<div className="header-element__icon">
-						<img src={Clown} />
+						<img src={Clown} alt="Clown" />
 					</div>
 					<div className="header-element__text" >
 						Оно
@@ -38,7 +33,7 @@ class ContentHeader extends Component {
 				<div className={"header__element " + (currentTab === 'Subscribe' ? "header__element_active" : '')}
 					 onClick={this.handleChangeTab('Subscribe')}>
 					<div className="header-element__icon">
-						<img src={Manicure} />
+						<img src={Manicure} alt="Nails" />
 					</div>
 					<div className="header-element__text" >
 						Скидки на маникюрчик

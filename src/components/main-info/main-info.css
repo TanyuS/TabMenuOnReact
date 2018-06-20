@@ -1,0 +1,12 @@
+.main-info__list {
+    padding: 8px 0;
+}
+.main-info-footer {
+    padding: 18px 22px;
+}
+.main-info-footer__link {
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: #2196f3;
+    text-decoration: none;
+}

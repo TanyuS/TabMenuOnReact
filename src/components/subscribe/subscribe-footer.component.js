@@ -5,11 +5,6 @@ import * as SwitchOff from '../../sources/ic-switch-off.svg';
 
 
 class SubscribeFooter extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
     render() {
         const {isSubscribed, onChange} = this.props;
 
@@ -19,7 +14,7 @@ class SubscribeFooter extends Component {
                     Оформить подписку
                 </div>
                 <div className="subscribe-footer__switcher" onClick={onChange}>
-                    <img src={isSubscribed ?  SwitchOn : SwitchOff} />
+                    <img src={isSubscribed ?  SwitchOn : SwitchOff} alt="Switcher" />
                 </div>
             </div>
         );
