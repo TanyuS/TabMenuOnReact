@@ -6,8 +6,9 @@
 }
 
 .header__element {
-	width: 100px;
-	height: 100px;
+	cursor: default;
+	width: 98px;
+	height: 98px;
 	border-radius: 8px;
 	border: solid 1px #e5e5e5;
 	color: #999999;
@@ -32,6 +33,7 @@
 
 .header-element__text {
 	text-align: center;
+	line-height: 1.4;
 	flex: 1;
 	display: flex;
 	align-items: center;

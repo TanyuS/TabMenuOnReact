@@ -1,8 +1,8 @@
 .main-info__list {
-    padding: 8px 0;
+    padding: 8px 0 15px
 }
 .main-info-footer {
-    padding: 18px 22px;
+    padding: 15px 22px 21px
 }
 .main-info-footer__link {
     font-weight: 500;
