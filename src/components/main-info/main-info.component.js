@@ -18,7 +18,13 @@ class MainInfo extends Component {
         return (
             <div className="main-info">
                 <div className="main-info__list">
-                    {data.map(line => <MainInfoLine key={line.id} data={line} isChosen={line.id === this.state.currentLine} onClick={this.handleChangeLine}/>)}
+                    {data.map(line =>
+                        <MainInfoLine
+                            key={line.id}
+                            data={line}
+                            isChosen={line.id === this.state.currentLine}
+                            onClick={this.handleChangeLine}/>
+                    )}
                 </div>
 
                 <div className="main-info-footer">

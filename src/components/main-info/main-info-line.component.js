@@ -15,7 +15,7 @@ class MainInfoLine extends Component {
                 {isChosen &&
                 <div className="main-info-line__links links">
                     {data.links.map((link, index) =>
-                        <a href={link.path} className="links__element">
+                        <a href={link.path} className="links__element" key={index}>
                             <div className="links-element__title">{link.title}</div>
                             <div className="links-element__subtitle">{link.subtitle}</div>
                         </a>
